@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Портфолио Карины Газизовой: обучение, навыки и проект PersonalExpenseAnalyzer.">
+  <title>Карина Газизова — портфолио</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header container">
+    <a class="logo" href="#home" aria-label="На главную">КГ<span>.</span></a>
+    <nav aria-label="Разделы портфолио">
+      <a href="#about">Обо мне</a>
+      <a href="#skills">Навыки</a>
+      <a href="#project">Проект</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero" id="home" aria-labelledby="name">
+      <div class="hero-text">
+        <p class="eyebrow">Личное портфолио</p>
+        <h1 id="name">Карина<br><span>Газизова</span></h1>
+        <p class="intro">Изучаю программирование,<br>веб-разработку и анализ данных.</p>
+        <p class="hero-note">Студентка 2 курса РГУ им. А. Н. Косыгина.<br>Направление «Информационные системы и технологии».</p>
+        <a class="button" href="#project">Посмотреть мой проект <span aria-hidden="true">↗</span></a>
+      </div>
+      <figure class="portrait">
+        <img src="karina.jpg" alt="Карина Газизова на фоне бамбука" width="640" height="640" fetchpriority="high">
+
+      </figure>
+    </section>
+
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div><p class="eyebrow">01 / Знакомство</p><h2 id="about-title">Немного обо мне</h2></div>
+      <div class="section-content">
+        <p>Я учусь в Российском государственном университете им. А. Н. Косыгина и развиваю навыки работы с информационными системами. В учебных работах использую HTML и CSS, создаю проекты на C++ и Python.</p>
+        <p>Мне интересны анализ данных, веб-разработка и программирование. Сейчас работаю над приложением для анализа личных расходов — в нём соединяются программирование, работа с базой данных и обработка финансовой информации.</p>
+        <p class="personal">В свободное время люблю гулять и ходить в зал.</p>
+      </div>
+    </section>
+
+    <section class="section" id="skills" aria-labelledby="skills-title">
+      <p class="eyebrow">02 / Что я умею</p>
+      <h2 id="skills-title">Навыки и технологии</h2>
+      <div class="skills-grid">
+        <article class="skill"><span class="skill-number">01</span><h3>HTML и CSS</h3><p>Делала учебные работы: создавала структуру веб-страниц и оформляла их с помощью стилей.</p><span class="level">Учебная практика</span></article>
+        <article class="skill"><span class="skill-number">02</span><h3>C++ и Python</h3><p>Создавала проекты. Применяю программирование для решения практических и учебных задач.</p><span class="level">Опыт создания проектов</span></article>
+        <article class="skill"><span class="skill-number">03</span><h3>Базы данных и Excel</h3><p>Знаю основы работы с базами данных и электронными таблицами. В текущем проекте используется SQLite.</p><span class="level">Базовые знания</span></article>
+        <article class="skill"><span class="skill-number">04</span><h3>Git</h3><p>Знакома с основами контроля версий и работой с репозиториями для хранения кода проектов.</p><span class="level">Базовые знания</span></article>
+      </div>
+    </section>
+
+    <section class="section" id="project" aria-labelledby="project-title">
+      <p class="eyebrow">03 / Моя работа</p>
+      <div class="project">
+        <div class="project-heading"><span class="status">В разработке</span><h2 id="project-title">PersonalExpense<wbr>Analyzer</h2><p class="project-subtitle">Анализ личных расходов</p><div class="tags"><span>C++</span><span>SQLite</span><span>CSV</span></div></div>
+        <div class="project-content">
+          <p>Разрабатываю консольное приложение, которое помогает разбирать выписки и анализировать личные расходы. Проект создаётся в рамках изучения объектно-ориентированного программирования.</p>
+          <h3>Что уже работает</h3>
+          <ul>
+            <li>Импорт операций из CSV и формирование месячного отчёта.</li>
+            <li>Автоматическое определение категорий и ручное исправление.</li>
+            <li>Создание собственных правил категоризации.</li>
+            <li>Сохранение операций и правил в SQLite.</li>
+            <li>Экспорт операций выбранного месяца в CSV.</li>
+          </ul>
+          <a class="text-link" href="https://github.com/gazizovakarina07-arch/PersonalExpenseAnalyzer">Открыть репозиторий <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contacts" id="contacts" aria-labelledby="contacts-title">
+      <div><p class="eyebrow">04 / На связи</p><h2 id="contacts-title">Контакты</h2><p>Мои проекты можно найти на GitHub.</p></div>
+      <div class="contact-links"><a href="tel:+79124736298">+7 (912) 473-62-98 <span aria-hidden="true">↗</span></a><a href="https://github.com/gazizovakarina07-arch">gazizovakarina07-arch <span aria-hidden="true">↗</span></a></div>
+    </section>
+  </main>
+  <footer class="footer container"><span>© 2026 Карина Газизова</span><a href="#home">Наверх ↑</a></footer>
+</body>
+</html>
+
